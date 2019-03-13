@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|VT323');
 
 body {
   -webkit-background-size: cover;
@@ -18,10 +18,10 @@ body {
 }
 
 .link {
-  font-family: 'Nova Mono', monospace;
-  border: 2px solid #fff;
+  font-family: 'VT323', monospace;
   background-color: black;
   box-sizing: content-box;
+  border: 2px solid #fff;
   text-decoration: none;
   display: inline-block;
   text-align: center;
