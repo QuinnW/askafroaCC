@@ -34,6 +34,6 @@ body {
 }
 
 .link:hover {
-  border-bottom: 7px solid white;
+  border-bottom: 5px solid white;
   box-sizing: content-box;
 }
