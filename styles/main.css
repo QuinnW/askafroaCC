@@ -1,39 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|VT323');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
-body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+html {
+  background-image: url("https://i.pinimg.com/originals/0b/67/0b/0b670b6b880cfc76baed43b3e9607f7a.gif");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .tint {
   background-color: black;
   position: absolute;
-  opacity: 0.5;
+  margin: auto;
+  opacity: 0.8;
   height: 100%;
   width: 100%;
+  bottom: 0%;
+  right: 0%;
   left: 0%;
   top: 0%;
 }
 
-.link {
-  font-family: 'Major Mono Display', monospace;
-  background-color: black;
-  box-sizing: content-box;
-  border: 2px solid #fff;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  margin-right: 15px;
-  margin-left: 15px;
-  font-size: 1.3vw;
-  color: white;
-  padding: 6px;
+.contentArea {
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  margin: auto;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  top: 0%;
 }
 
-.link:hover {
-  border-bottom: 5px solid white;
-  box-sizing: content-box;
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  color: white;
+}
+
+li {
+  padding: 5px;
+}
+
+ul {
+  font-family: 'Major Mono Display', monospace;
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #ff07c5;
 }
