@@ -53,8 +53,7 @@ highlight {
 ul {
   font-family: 'Major Mono Display', monospace;
   list-style-position: inside;
-  list-style-type: korean-hanja-formal;
-  
+  list-style-type: square;
   text-align: center;
   color: white;
 }
