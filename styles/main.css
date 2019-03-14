@@ -37,14 +37,22 @@ h1 {
   color: white;
 }
 
-li {
-  padding: 5px;
+.time {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  color: white;
 }
 
 ul {
   font-family: 'Major Mono Display', monospace;
-  list-style-type: none;
+  list-style-position: inside;
+  list-style-type: square;
   text-align: center;
+  color: white;
+}
+
+li {
+  padding: 5px;
 }
 
 a {
