@@ -4,30 +4,6 @@
 <title>askafroaCC</title>
 <div class="tint"></div>
 
-<script>
-  function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('time').innerHTML =
-      "[" + h + ":" + m + "//sf-bayarea//s1-drops]";
-    var t = setTimeout(startTime, 500);
-  }
-
-  function checkTime(i) {
-    if (i < 10) {
-      i = "0" + i
-    };
-    return i;
-  }
-
-</script>
-
-<body onload="startTime()">
-
 <div class="contentArea">
   <ul>
     <strong><li><a href="index.html">- back</a></li></strong>
