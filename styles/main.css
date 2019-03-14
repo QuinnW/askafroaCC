@@ -38,6 +38,10 @@ h1 {
   color: white;
 }
 
+highlight {
+  background-color: #ba0189;
+}
+
 .time {
   font-family: 'Major Mono Display', monospace;
   padding-bottom: 5px;
@@ -49,7 +53,8 @@ h1 {
 ul {
   font-family: 'Major Mono Display', monospace;
   list-style-position: inside;
-  list-style-type: square;
+  list-style-type: korean-hanja-formal;
+  
   text-align: center;
   color: white;
 }
@@ -64,5 +69,5 @@ a {
 }
 
 a:hover {
-  background-color: #ff07c5;
+  background-color: #ba0189;
 }
