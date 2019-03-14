@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
-
 html {
   background: url(https://i.pinimg.com/originals/5d/9e/09/5d9e0954596a742949482a04d5dab87f.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -71,4 +70,14 @@ a {
 
 a:hover {
   background-color: #ba0189;
+}
+
+p {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  color: white;
+}
+
+strong {
+  padding: 15px;
 }
