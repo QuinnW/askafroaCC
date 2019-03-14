@@ -14,27 +14,30 @@
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('time').innerHTML =
-      h + ":" + m + "//sf-bayarea//s1-drops";
+      "[" + h + ":" + m + "//sf-bayarea//s1-drops]";
     var t = setTimeout(startTime, 500);
   }
+
   function checkTime(i) {
     if (i < 10) {
       i = "0" + i
     };
     return i;
   }
+
 </script>
 
 <body onload="startTime()">
 
   <div class="contentArea">
-    <h1><highlight>ASKAFROA</highlight></h1>
+    <h1>
+      <highlight>ASKAFROA</highlight>
+    </h1>
     <div id="time" class="time"></div>
-    <p>
-      <ul>
-        <li><a href="#">about ></a></li>
-        <li><a href="#">drops ></a></li>
-        <li><a href="#">contact ></a></li>
-        <li><a href="#">faq ></a></li>
-      </ul>
+    <ul>
+      <li><a href="#">+ about ></a></li>
+      <li><a href="#">+ drops ></a></li>
+      <li><a href="#">+ contact ></a></li>
+      <li><a href="#">+ faq ></a></li>
+    </ul>
   </div>
