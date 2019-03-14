@@ -55,6 +55,7 @@ ul {
   font-family: 'Major Mono Display', monospace;
   list-style-position: inside;
   list-style-type: none;
+  padding-right: 45px;
   text-align: center;
   color: white;
 }
