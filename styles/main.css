@@ -39,21 +39,22 @@ h1 {
 }
 
 highlight {
-  background-color: #ba0189;
+  border: solid white 2px;
+  padding: 7px;
 }
 
 .time {
   font-family: 'Major Mono Display', monospace;
   padding-bottom: 5px;
-  font-weight: bolder;
   text-align: center;
+  font-weight: bold;
   color: white;
 }
 
 ul {
   font-family: 'Major Mono Display', monospace;
   list-style-position: inside;
-  list-style-type: square;
+  list-style-type: none;
   text-align: center;
   color: white;
 }
