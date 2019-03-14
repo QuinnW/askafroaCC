@@ -22,9 +22,9 @@ html {
 
 .contentArea {
   position: absolute;
-  height: 70%;
-  width: 70%;
   margin: auto;
+  height: 65%;
+  width: 70%;
   bottom: 0%;
   right: 0%;
   left: 0%;
@@ -39,6 +39,8 @@ h1 {
 
 .time {
   font-family: 'Major Mono Display', monospace;
+  padding-bottom: 5px;
+  font-weight: bolder;
   text-align: center;
   color: white;
 }
